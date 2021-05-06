@@ -23,14 +23,18 @@
 </head>
 <body>
 <!-- ========== HEADER ========== -->
-<header id="header" class="header header-sticky-top-lg">
+<header id="header" class="header header-sticky-top"
+        data-hs-header-options='{
+          "fixMoment": 1000,
+          "fixEffect": "slide"
+        }'>
   <div class="header-section">
     <div id="logoAndNav" class="container">
       <!-- Nav -->
       <nav class="js-mega-menu navbar navbar-expand-lg">
         <!-- Logo -->
-        <a class="navbar-brand" href="#" aria-label="Front">
-          <img src="./assets/svg/logos/logotemp.svg" alt="Logo">
+        <a class="navbar-brand" href="../../html/index.html" aria-label="Front">
+          <img src="../../assets/svg/logos/logotemp.svg" alt="Logo">
         </a>
         <!-- End Logo -->
 
@@ -56,26 +60,20 @@
 
         <!-- Navigation -->
         <div id="navBar" class="collapse navbar-collapse">
-          <div class="navbar-body header-sticky-top-inner">
-            <ul class="navbar-nav">
-              <!-- Blog -->
-              <li class="hs-has-sub-menu navbar-nav-item">
-                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Blog</a>
-
-                <!-- Blog - Submenu -->
-                <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                  <a class="dropdown-item" href="#">Journal</a>
-                  <a class="dropdown-item" href="#">Metro</a>
-                  <a class="dropdown-item" href="#">Newsroom</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Blog Profile</a>
-                  <a class="dropdown-item" href="#">Single Article</a>
-                </div>
-                <!-- End Submenu -->
-              </li>
-              <!-- End Blog -->
-            </ul>
-          </div>
+          <ul class="js-scroll-nav navbar-nav">
+            <li class="navbar-nav-item">
+              <a class="nav-link" href="#homeSection">National Wellbeing Service</a>
+            </li>
+            <li class="navbar-nav-item">
+              <a class="nav-link" href="#pagesSection">Treadmill System</a>
+            </li>
+            <li class="navbar-nav-item">
+              <a class="nav-link" href="#worksSection">Two-Tier System</a>
+            </li>
+            <li class="navbar-nav-item">
+              <a class="nav-link" href="#blogSection">Networked System</a>
+            </li>
+          </ul>
         </div>
         <!-- End Navigation -->
       </nav>
@@ -85,46 +83,31 @@
 </header>
 <!-- ========== END HEADER ========== -->
 
+<!-- Hero Section -->
+<div class="container space-top-2 space-top-md-4 space-top-lg-3">
+  <div class="border-bottom">
+    <div class="w-lg-75 text-center mx-lg-auto">
+      <div class="mb-9">
+        <h1 class="display-4 mb-4">National Wellbeing Service</h1>
+        <p class="lead">One wellbeing system</p>
+      </div>
+
+      <div class="w-lg-75 mx-lg-auto">
+        <img class="img-fluid" src="../../assets/svg/illustrations/communicating-men.svg" alt="Image Description">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Hero Section -->
+
+
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
     <!-- Article Description Section -->
-    <div class="container space-top-3 space-bottom-2">
-      <div class="w-lg-60 mx-lg-auto">
-        <div class="mb-4">
-          <h1 class="h2">National Wellbeing Service</h1>
-        </div>
-
-        <!-- Author -->
-        <div class="border-top border-bottom py-4 mb-5">
-          <div class="row align-items-md-center">
-            <div class="col-md-7 mb-5 mb-md-0">
-              <div class="media align-items-center">
-                <div class="avatar avatar-circle">
-                  <img class="avatar-img" src="./assets/img/100x100/img11.jpg" alt="Image Description">
-                </div>
-                <div class="media-body font-size-1 ml-3">
-                  <span class="h6"><a href="blog-profile.html">Staff College</a></span>
-                  <span class="d-block text-muted">April 15, 2021</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-5">
-              
-            </div>
-          </div>
-        </div>
-        <!-- End Author -->
-        <p>At Front, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also helps them grow. We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
-      </div>
-
-      <div class="my-4 my-sm-8">
-        <img class="img-fluid rounded-lg" src="./assets/img/1920x800/img5.jpg" alt="Image Description">
-      </div>
+    <div class="container space-top-2 space-bottom-2">
 
 <!-- MAIN TEMP -->
 <div class="w-lg-60 mx-lg-auto">
-<h1>National Wellbeing Service</h1>
-
 
 <h2>Introduction</h2>
 
@@ -428,6 +411,55 @@ Clinical teams in 2035 are set up as collaborative, multi-disciplinary teams, wi
 </li>
 </ul>
 <h2>How we got to 2035</h2>
+
+
+
+
+
+<ul class="step">
+  <li class="step-item">
+    <div class="step-content-wrapper">
+      <span class="step-icon step-icon-soft-primary">2019</span>
+      <div class="step-content">
+        <h4>First step</h4>
+        <p class="step-text">Achieve virtually any design and layout from within the one template.</p>
+      </div>
+    </div>
+  </li>
+
+  <li class="step-item">
+    <div class="step-content-wrapper">
+      <span class="step-icon step-icon-soft-primary">2021</span>
+      <div class="step-content">
+        
+        <p class="step-text">Regional assemblies created across England, including the South West, with powers devolved to the local level, based strongly on the principle of subsidiarity. Regional elections held. Local activism and community-led citizen participation increases. The South West elects its first regional Mayor.</p>
+      </div>
+    </div>
+  </li>
+
+  <li class="step-item">
+    <div class="step-content-wrapper">
+      <span class="step-icon step-icon-soft-primary">3</span>
+      <div class="step-content">
+        <h4>Third step</h4>
+        <p class="step-text">Find what you need in one template and combine features at will.</p>
+      </div>
+    </div>
+  </li>
+</ul>
+<!-- End Step -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <ul>
